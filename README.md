@@ -1,17 +1,16 @@
 [battletech-tw]: https://store.catalystgamelabs.com/products/battletech-total-warfare-pdf
 [battletech-as]: https://store.catalystgamelabs.com/products/battletech-alpha-strike-commanders-edition
 
-[outworlds-pdf]:        https://outworlds-wastes.jeremylt.org/downloads?league
-[outworlds-quickstart]: https://outworlds-wastes.jeremylt.org/downloads?quickstart
-[outworlds-event]:      https://outworlds-wastes.jeremylt.org/downloads?event
-[outworlds-web]:        https://outworlds-wastes.jeremylt.org
+[outworlds-pdf]:      https://outworlds-chaos.jeremylt.org/downloads?full
+[outworlds-web]:      https://outworlds-chaos.jeremylt.org
+[outworlds-original]: https://outworlds-wastes.jeremylt.org
 
-[build-pdf-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-pdf.yml
-[build-pdf-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-pdf.yml/badge.svg
-[build-web-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-website.yml
-[build-web-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-website.yml/badge.svg
+[build-pdf-job]:   https://github.com/Eudicods/outworlds-chaos/actions/workflows/build-pdf.yml
+[build-pdf-badge]: https://github.com/Eudicods/outworlds-chaos/actions/workflows/build-pdf.yml/badge.svg
+[build-web-job]:   https://github.com/Eudicods/outworlds-chaos/actions/workflows/build-website.yml
+[build-web-badge]: https://github.com/Eudicods/outworlds-chaos/actions/workflows/build-website.yml/badge.svg
 
-[github-issues]:   https://github.com/Eudicods/outworlds-wastes/issues
+[github-issues]:   https://github.com/Eudicods/outworlds-chaos/issues
 
 [scotts-list]: https://scottsgameroom.com/2022/05/13/battletech-play-formats
 [fanon-wiki]:  https://battletechfanon.fandom.com/wiki/Battletech:_Outworlds_Wastes_(Casual_Campaigns)
@@ -23,7 +22,7 @@
 
 [outworlds-wastes-logo]: rules/img/outworlds-wastes.ico
 
-# BattleTech: Outworlds Wastes
+# BattleTech: Outworlds Wastes: Chaos Campaign
 
 [![Build PDFs][build-pdf-badge]][build-pdf-job]
 [![Build Website][build-web-badge]][build-web-job]
@@ -31,20 +30,19 @@
 
 ![BattleTech: Outworlds Wastes][outworlds-wastes-logo]
 
-BattleTech: Outworlds Wastes provides a lightweight framework for narrative BattleTech leagues and events with simplified campaign logistics rules.
+BattleTech: Outworlds Wastes: Chaos Campaign provides a lightweight framework for narrative BattleTech leagues and events based upon BattleTech: Chaos Campaign from the Hot Spots: Hinterlands sourcebook or the BattleTech: Mercenaries box set.
 Players take the role of a commander leading a combined arms force searching the Outworlds Wastes for lost technology and glory.
 Completing objectives in scenarios earns C-bills that commanders use to maintain and upgrade their forces.
 Commanders play scenarios in multiple formats, such as [BattleTech][battletech-tw] and [Alpha Strike][battletech-as].
 
 The latest PDF of the rules can be found [here][outworlds-pdf].
-The Quickstart Rules PDF can be found [here][outworlds-quickstart].
-The Event Rules PDF can be found [here][outworlds-event].
 The web format of the rules can be found [here][outworlds-web].
+The original BattleTech: Outworlds Wastes rules can be found [here][outworlds-original].
 
 ## References
 
-These rules have been mentiond in [Scott's Game Room][scotts-list] and the [BattleTech Fanon Wiki][fanon-wiki].
-These rules are also avaliable on [itch.io][itchio-link].
+These rules have been mentioned in [Scott's Game Room][scotts-list] and the [BattleTech Fanon Wiki][fanon-wiki].
+These rules are also available on [itch.io][itchio-link].
 
 ## Contributing
 

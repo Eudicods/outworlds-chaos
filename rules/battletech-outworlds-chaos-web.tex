@@ -1,0 +1,209 @@
+% --------------------------------------------------------------------------------
+% ---------------------------------  Preamble  -----------------------------------
+% --------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage{microtype}
+
+\usepackage[letterpaper, margin=0.75in]{geometry}
+\usepackage{graphicx}               % to insert figures
+\usepackage[table,x11names]{xcolor} % colors for e-copies
+\usepackage{subcaption}             % subfigures
+\usepackage{placeins}               % Float barriers
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{rotating}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{titlesec}
+\usepackage{hyperref}               % PDF hyperreferences
+\usepackage{titling}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{calc}
+\usepackage[T1]{fontenc}
+\usepackage{ifthen}
+
+\newcommand{\mysectiontitle}{}
+\newcommand{\newsection}[2]{\renewcommand{\mysectiontitle}{#2}\section{#1}}
+
+\newcommand{\Vline}[1]{}
+\newcommand{\Hline}[1]{\hline}
+
+\title{BattleTech: Outworlds Wastes}
+\author{}
+\date{}
+
+\newcommand{\outworldsMode}{mode-web}
+
+% --------------------------------------------------------------------------------
+% ---------------------------------  Document  -----------------------------------
+% --------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeatletter
+\Tag{TITLE+}{\@title}
+
+\begin{center}
+  \fontsize{50}{60}\bfseries\selectfont\MakeUppercase{BattleTech}
+  \fontsize{30}{37}\bfseries\selectfont\MakeUppercase{Outworlds Wastes}
+
+  \href{https://ko-fi.com/bleptarts}{\includegraphics[alt='Outworlds Wastes logo', width=4.79in, height=5in]{img/Outworlds-Wastes.png}}
+
+  \LARGE\bfseries{Lightweight Narrative League and Event Framework}
+\end{center}
+
+% --------------------------------------------------------------------------------
+\newsection{Introduction}{introduction}
+% --------------------------------------------------------------------------------
+
+\input{0-Introduction/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Background}{background}
+% --------------------------------------------------------------------------------
+
+\input{1-Background/index.tex}
+
+% --------------------------------------------------------------------------------
+\newsection{Force Construction}{force-construction}
+% --------------------------------------------------------------------------------
+
+\input{2-Force-Construction/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Force Maintenance}{force-management}
+\label{sec:force_management}
+% --------------------------------------------------------------------------------
+
+\input{3-Force-Maintenance/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{DropShip Customization}{dropship-customization}
+\label{sec:dropship_customization}
+% --------------------------------------------------------------------------------
+
+\input{4-Dropship-Customization/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Event Play}{event-play}
+\label{sec:event_play}
+% --------------------------------------------------------------------------------
+
+\input{5-Event-Play/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{League Play}{league-play}
+\label{sec:league_play}
+% --------------------------------------------------------------------------------
+
+\input{6-League-Play/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Tracks}{scenarios}
+\label{sec:scenarios}
+% --------------------------------------------------------------------------------
+
+\input{7-Tracks/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Renorsal Reversal}{short-story}
+% --------------------------------------------------------------------------------
+
+\input{9-Short/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Outworlds Wastes Maps}{outworlds-wastes-map}
+\label{sec:outworlds_wastes_map}
+% --------------------------------------------------------------------------------
+
+\input{8-Resources/0-Map-3SW-web.tex}
+
+\input{8-Resources/0-Map-ilClan-web.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Sample Tracking}{sample-tracking}
+\label{sec:sample_tracking}
+% --------------------------------------------------------------------------------
+
+\subsection{Event Play Force Roster}
+
+\input{8-Resources/1-Roster-Scale-1.tex}
+
+\subsection{League Play Force Roster}
+
+\input{8-Resources/1-Roster-Scale-1.tex}
+
+\subsection{DropShip Customization}
+
+\input{8-Resources/2-DropShip.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Sample Forces}{sample-forces}
+\label{sec:sample_forces}
+% --------------------------------------------------------------------------------
+
+\input{11-Sample-Forces/index.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Force BV Adjustments}{bv-adjustments}
+\label{sec:force_bv_adjustments}
+% --------------------------------------------------------------------------------
+
+\input{8-Resources/3-BV.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Combat Vehicle Primer}{combat-vehicle-primer}
+\label{sec:combat_vehicle_primer}
+% --------------------------------------------------------------------------------
+
+\input{8-Resources/4-Vehicles.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{References}{references}
+\label{sec:references}
+% --------------------------------------------------------------------------------
+
+\input{8-Resources/5-References.tex}
+
+\newpage
+
+% --------------------------------------------------------------------------------
+\newsection{Downloads}{downloads}
+\label{sec:downloads}
+% --------------------------------------------------------------------------------
+
+\input{10-Downloads/0-Downloads.tex}
+
+\newpage
+\end{document}
+% --------------------------------------------------------------------------------

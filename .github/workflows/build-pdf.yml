@@ -16,20 +16,12 @@ jobs:
        scheme: full
        run: |
          cd rules
-         pdflatex battletech-outworlds-wastes.tex
-         pdflatex battletech-outworlds-wastes.tex
-         pdflatex battletech-outworlds-wastes.tex
-         pdflatex battletech-outworlds-wastes-quickstart.tex
-         pdflatex battletech-outworlds-wastes-quickstart.tex
-         pdflatex battletech-outworlds-wastes-event.tex
-         pdflatex battletech-outworlds-wastes-event.tex
-         pdflatex battletech-outworlds-wastes-errata.tex
-         pdflatex battletech-outworlds-wastes-errata.tex
-         pdflatex battletech-outworlds-wastes-instant-action.tex
-         pdflatex battletech-outworlds-wastes-instant-action.tex
+         pdflatex battletech-outworlds-chaos.tex
+         pdflatex battletech-outworlds-chaos.tex
+         pdflatex battletech-outworlds-chaos.tex
          cd ..
          mv rules/*.pdf .
-         mv scenarios/*/*.pdf .
+# mv scenarios/*/*.pdf . (commented out while there are no scenarios)
          ls | grep -vE ".pdf|.md" | xargs rm -rf
 
    - name: Publish PDF
