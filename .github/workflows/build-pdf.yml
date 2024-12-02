@@ -21,7 +21,6 @@ jobs:
          pdflatex battletech-outworlds-chaos.tex
          cd ..
          mv rules/*.pdf .
-# mv scenarios/*/*.pdf . (commented out while there are no scenarios)
          ls | grep -vE ".pdf|.md" | xargs rm -rf
 
    - name: Publish PDF
